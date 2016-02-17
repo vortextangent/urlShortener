@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Hasher.php">
+    <totals>
+      <lines total="65" comments="27" code="38" executable="11" executed="11" percent="100.00%"/>
+      <methods count="5" tested="5" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="Hasher" start="9" executable="11" executed="11" crap="6">
+      <package full="URLShortener" name="URLShortener" sub="" category=""/>
+      <namespace name="URLShortener"/>
+      <method name="__toString" signature="__toString()" start="19" end="22" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="setAlgorithm" signature="setAlgorithm($algorithm)" start="28" end="32" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="__construct" signature="__construct($algorithm = 'crc32b')" start="38" end="41" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="ensureAlgorithmIsAvailable" signature="ensureAlgorithmIsAvailable($algorithm)" start="48" end="55" crap="2" executable="4" executed="4" coverage="100"/>
+      <method name="hashString" signature="hashString($string)" start="61" end="64" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="21">
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="30">
+        <covered by="URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="31">
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="32">
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="40">
+        <covered by="URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="41">
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="50">
+        <covered by="URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="51">
+        <covered by="URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="52">
+        <covered by="URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction"/>
+      </line>
+      <line nr="54">
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+        <covered by="URLShortener\HasherTest::testCanRetrieveAlgorithmName"/>
+      </line>
+      <line nr="63">
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #0"/>
+        <covered by="URLShortener\HasherTest::testGenerateExpectedHash with data set #1"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

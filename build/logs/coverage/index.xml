@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="/Users/adacosta/Documents/dev/url/src/URLShortener">
+    <tests>
+      <test name="URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\HasherTest::testGenerateExpectedHash with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\HasherTest::testGenerateExpectedHash with data set #1" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\HasherTest::testCanRetrieveAlgorithmName" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\URLTest::testCanRetrieveUrlAsString" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/Users/adacosta/Documents/dev/url/src/URLShortener">
+      <totals>
+        <lines total="119" comments="46" code="73" executable="20" executed="20" percent="100.00%"/>
+        <methods count="9" tested="9" percent="100.00%"/>
+        <functions count="0" tested="0" percent=""/>
+        <classes count="2" tested="2" percent="100.00%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <file name="Hasher.php" href="Hasher.php.xml">
+        <totals>
+          <lines total="65" comments="27" code="38" executable="11" executed="11" percent="100.00%"/>
+          <methods count="5" tested="5" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="URL.php" href="URL.php.xml">
+        <totals>
+          <lines total="54" comments="19" code="35" executable="9" executed="9" percent="100.00%"/>
+          <methods count="4" tested="4" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>

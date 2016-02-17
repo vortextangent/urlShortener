@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="URLShortener\URL" namespace="URLShortener" name="URL" abstract="false" final="false" start="10" end="55">
+  <file path="../src/URLShortener" file="URL.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URL.php" size="857" time="2016-01-27T14:06:59-05:00" unixtime="1453921619" sha1="5fc3187fb71b09e44b0781c7d7a7730b8945ad4b" relative="URLShortener/URL.php"/>
+  <docblock>
+    <description compact="Class URL"/>
+    <package value="URLShortener"/>
+  </docblock>
+  <member name="url" visibility="private" static="false" line="15">
+    <docblock>
+      <description/>
+      <var/>
+    </docblock>
+  </member>
+  <method name="setUrl" start="21" end="25" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description/>
+      <param type="string" variable="$url"/>
+    </docblock>
+    <parameter name="url" byreference="false" type="{unknown}"/>
+  </method>
+  <constructor name="__construct" start="31" end="34" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="URL constructor."/>
+      <param variable="$urlString"/>
+    </docblock>
+    <parameter name="urlString" byreference="false" type="{unknown}"/>
+  </constructor>
+  <method name="__toString" start="36" end="39" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="ensureIsValidURL" start="46" end="52" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param variable="$url"/>
+      <throws type="object">
+        <type full="\InvalidArgumentException" namespace="" name="InvalidArgumentException"/>
+      </throws>
+      <return type="object">
+        <type full="URLShortener\bool" namespace="URLShortener" name="bool"/>
+      </return>
+    </docblock>
+    <parameter name="url" byreference="false" type="{unknown}"/>
+  </method>
+</class>

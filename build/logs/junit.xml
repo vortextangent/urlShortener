@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="URLShortener" tests="8" assertions="8" failures="0" errors="0" time="0.018342">
+    <testsuite name="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.009722">
+      <testcase name="testCanNotCreateHasherWithInvalidFunction" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="16" assertions="1" time="0.002830"/>
+      <testsuite name="URLShortener\HasherTest::testGenerateExpectedHash" tests="2" assertions="2" failures="0" errors="0" time="0.004863">
+        <testcase name="testGenerateExpectedHash with data set #0" assertions="1" time="0.002582"/>
+        <testcase name="testGenerateExpectedHash with data set #1" assertions="1" time="0.002281"/>
+      </testsuite>
+      <testcase name="testCanRetrieveAlgorithmName" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="33" assertions="1" time="0.002029"/>
+    </testsuite>
+    <testsuite name="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.008620">
+      <testsuite name="URLShortener\URLTest::testDoesNotAllowInvalidUrls" tests="1" assertions="1" failures="0" errors="0" time="0.002212">
+        <testcase name="testDoesNotAllowInvalidUrls with data set #0" assertions="1" time="0.002212"/>
+      </testsuite>
+      <testsuite name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl" tests="2" assertions="2" failures="0" errors="0" time="0.004093">
+        <testcase name="testCanCreateInstanceWithValidUrl with data set #0" assertions="1" time="0.002080"/>
+        <testcase name="testCanCreateInstanceWithValidUrl with data set #1" assertions="1" time="0.002013"/>
+      </testsuite>
+      <testcase name="testCanRetrieveUrlAsString" class="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" line="33" assertions="1" time="0.002315"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+
+FILE: /Users/adacosta/Documents/dev/url/src/URLShortener/Hasher.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 66 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 66 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /Users/adacosta/Documents/dev/url/src/URLShortener/URL.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 55 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 55 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /Users/adacosta/Documents/dev/url/tests/bootstrap.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /Users/adacosta/Documents/dev/url/tests/URLTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 29 | ERROR | [x] No space found after comma in function call
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+

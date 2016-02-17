@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="URL.php">
+    <totals>
+      <lines total="54" comments="19" code="35" executable="9" executed="9" percent="100.00%"/>
+      <methods count="4" tested="4" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="URL" start="10" executable="9" executed="9" crap="5">
+      <package full="URLShortener" name="URLShortener" sub="" category=""/>
+      <namespace name="URLShortener"/>
+      <method name="setUrl" signature="setUrl($url)" start="21" end="25" crap="1" executable="3" executed="3" coverage="100"/>
+      <method name="__construct" signature="__construct($urlString)" start="31" end="34" crap="1" executable="2" executed="2" coverage="100"/>
+      <method name="__toString" signature="__toString()" start="36" end="39" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="ensureIsValidURL" signature="ensureIsValidURL($url)" start="46" end="52" crap="2" executable="3" executed="3" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="23">
+        <covered by="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="24">
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="25">
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="33">
+        <covered by="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="34">
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="38">
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="48">
+        <covered by="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="49">
+        <covered by="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0"/>
+      </line>
+      <line nr="51">
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>
