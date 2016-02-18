@@ -25,7 +25,7 @@ class HasherTest extends \PHPUnit_Framework_TestCase
     {
         $url    = new URL($urlstring);
         $hasher = new URLHasher($algorithm);
-        $hash   = $hasher->hashUrl($url);
+        $hash   = $hasher->getHash($url);
         $this->assertEquals($expectedHash, $hash);
     }
 
