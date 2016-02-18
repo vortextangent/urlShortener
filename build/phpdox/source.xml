@@ -2,8 +2,8 @@
 <source xmlns="http://xml.phpdox.net/src">
   <dir name="/Users/adacosta/Documents/dev/url/src">
     <dir name="URLShortener">
-      <file name="Hasher.php" size="1222" time="2016-01-29T10:32:02-05:00" unixtime="1454081522" sha1="d83af410d5da7c98be0b8f9a2baa75d21879b89a" xml="tokens/URLShortener/Hasher.php.xml"/>
-      <file name="URL.php" size="857" time="2016-01-27T14:06:59-05:00" unixtime="1453921619" sha1="5fc3187fb71b09e44b0781c7d7a7730b8945ad4b" xml="tokens/URLShortener/URL.php.xml"/>
+      <file name="URL.php" size="962" time="2016-02-18T16:12:36-05:00" unixtime="1455829956" sha1="c226fe5236f64ba92b3ea3d80c1d12141b5ca823" xml="tokens/URLShortener/URL.php.xml"/>
+      <file name="URLHasher.php" size="1269" time="2016-02-18T16:12:40-05:00" unixtime="1455829960" sha1="f559c2378ea39a05e5bd528f26f0fde5a9990d6b" xml="tokens/URLShortener/URLHasher.php.xml"/>
     </dir>
   </dir>
 </source>

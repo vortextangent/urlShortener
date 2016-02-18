@@ -13,8 +13,8 @@
         <D>0</D>
       </Stats>
       <ConcreteClasses>
-        <Class sourceFile="/Users/adacosta/Documents/dev/url/src/URLShortener/Hasher.php">Hasher</Class>
         <Class sourceFile="/Users/adacosta/Documents/dev/url/src/URLShortener/URL.php">URL</Class>
+        <Class sourceFile="/Users/adacosta/Documents/dev/url/src/URLShortener/URLHasher.php">URLHasher</Class>
       </ConcreteClasses>
       <AbstractClasses/>
       <DependsUpon>

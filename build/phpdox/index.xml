@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index xmlns="http://xml.phpdox.net/src" basedir="/Users/adacosta/Documents/dev/url/src">
   <namespace name="URLShortener">
-    <class name="Hasher" src="URLShortener/Hasher.php" description="Class Hasher" xml="classes/URLShortener_Hasher.xml"/>
     <class name="URL" src="URLShortener/URL.php" description="Class URL" xml="classes/URLShortener_URL.xml"/>
+    <class name="URLHasher" src="URLShortener/URLHasher.php" description="Class Hasher" xml="classes/URLShortener_URLHasher.xml"/>
   </namespace>
 </index>

@@ -1,68 +1,103 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="../src/URLShortener" file="URL.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URL.php" size="857" time="2016-01-27T14:06:59-05:00" unixtime="1453921619" sha1="5fc3187fb71b09e44b0781c7d7a7730b8945ad4b" relative="URLShortener/URL.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="../src/URLShortener" file="URL.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URL.php" size="962" time="2016-02-18T16:12:36-05:00" unixtime="1455829956" sha1="c226fe5236f64ba92b3ea3d80c1d12141b5ca823" relative="URLShortener/URL.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
   <line no="2"/>
-  <line no="3"/>
-  <line no="4">
+  <line no="3">
     <token name="T_NAMESPACE">namespace</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">URLShortener</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="5"/>
-  <line no="6">
+  <line no="4"/>
+  <line no="5">
+    <token name="T_USE">use</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">InvalidArgumentException</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="6"/>
+  <line no="7">
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="7">
+  <line no="8">
     <token name="T_DOC_COMMENT"> * Class URL</token>
   </line>
-  <line no="8">
+  <line no="9">
     <token name="T_DOC_COMMENT"> * @package URLShortener</token>
   </line>
-  <line no="9">
+  <line no="10">
     <token name="T_DOC_COMMENT"> */</token>
   </line>
-  <line no="10">
+  <line no="11">
     <token name="T_CLASS">class</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">URL</token>
   </line>
-  <line no="11">
+  <line no="12">
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="12">
+  <line no="13">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="13">
+  <line no="14">
     <token name="T_DOC_COMMENT">     * @var</token>
   </line>
-  <line no="14">
+  <line no="15">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="15">
+  <line no="16">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PRIVATE">private</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_VARIABLE">$url</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="16"/>
   <line no="17"/>
   <line no="18">
     <token name="T_WHITESPACE">    </token>
-    <token name="T_DOC_COMMENT">/**</token>
+    <token name="T_PUBLIC">public</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_FUNCTION">function</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">asString</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
   <line no="19">
-    <token name="T_DOC_COMMENT">     * @param string $url</token>
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
   <line no="20">
-    <token name="T_DOC_COMMENT">     */</token>
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_RETURN">return</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING_CAST">(string)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_VARIABLE">$this</token>
+    <token name="T_OBJECT_OPERATOR">-&gt;</token>
+    <token name="T_STRING">url</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
   <line no="21">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+  </line>
+  <line no="22"/>
+  <line no="23">
+    <token name="T_WHITESPACE">    </token>
+    <token name="T_DOC_COMMENT">/**</token>
+  </line>
+  <line no="24">
+    <token name="T_DOC_COMMENT">     * @param string $url</token>
+  </line>
+  <line no="25">
+    <token name="T_DOC_COMMENT">     */</token>
+  </line>
+  <line no="26">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PRIVATE">private</token>
     <token name="T_WHITESPACE"> </token>
@@ -73,11 +108,11 @@
     <token name="T_VARIABLE">$url</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="22">
+  <line no="27">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="23">
+  <line no="28">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -87,7 +122,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="24">
+  <line no="29">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -98,25 +133,25 @@
     <token name="T_VARIABLE">$url</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="25">
+  <line no="30">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="26"/>
-  <line no="27">
+  <line no="31"/>
+  <line no="32">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="28">
+  <line no="33">
     <token name="T_DOC_COMMENT">     * URL constructor.</token>
   </line>
-  <line no="29">
+  <line no="34">
     <token name="T_DOC_COMMENT">     * @param $urlString</token>
   </line>
-  <line no="30">
+  <line no="35">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="31">
+  <line no="36">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -127,11 +162,11 @@
     <token name="T_VARIABLE">$urlString</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="32">
+  <line no="37">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="33">
+  <line no="38">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -141,12 +176,12 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="34">
+  <line no="39">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="35"/>
-  <line no="36">
+  <line no="40"/>
+  <line no="41">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -156,42 +191,43 @@
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="37">
+  <line no="42">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="38">
+  <line no="43">
     <token name="T_WHITESPACE">        </token>
     <token name="T_RETURN">return</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_STRING_CAST">(string)</token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
-    <token name="T_STRING">url</token>
+    <token name="T_STRING">asString</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="39">
+  <line no="44">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="40"/>
-  <line no="41">
+  <line no="45"/>
+  <line no="46">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="42">
+  <line no="47">
     <token name="T_DOC_COMMENT">     * @param $url</token>
   </line>
-  <line no="43">
-    <token name="T_DOC_COMMENT">     * @throws \InvalidArgumentException</token>
+  <line no="48">
+    <token name="T_DOC_COMMENT">     * @throws InvalidArgumentException</token>
   </line>
-  <line no="44">
+  <line no="49">
     <token name="T_DOC_COMMENT">     * @return bool</token>
   </line>
-  <line no="45">
+  <line no="50">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="46">
+  <line no="51">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -202,11 +238,11 @@
     <token name="T_VARIABLE">$url</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="47">
+  <line no="52">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="48">
+  <line no="53">
     <token name="T_WHITESPACE">        </token>
     <token name="T_IF">if</token>
     <token name="T_WHITESPACE"> </token>
@@ -226,37 +262,35 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="49">
+  <line no="54">
     <token name="T_WHITESPACE">            </token>
     <token name="T_THROW">throw</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_NEW">new</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_NS_SEPARATOR">\</token>
     <token name="T_STRING">InvalidArgumentException</token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
     <token name="T_CONSTANT_ENCAPSED_STRING">'This is not a valid URL.'</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="50">
+  <line no="55">
     <token name="T_WHITESPACE">        </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="51">
+  <line no="56"/>
+  <line no="57">
     <token name="T_WHITESPACE">        </token>
     <token name="T_RETURN">return</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">true</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="52">
+  <line no="58">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="53"/>
-  <line no="54"/>
-  <line no="55">
+  <line no="59">
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
 </source>

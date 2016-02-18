@@ -1,12 +1,11 @@
 <?php
 
-
 namespace URLShortener;
 
 /**
  * Class URLHashTest
  * @package URL
- * @covers \URLShortener\Hasher
+ * @covers  \URLShortener\URLHasher
  */
 class HasherTest extends \PHPUnit_Framework_TestCase
 {
@@ -15,7 +14,7 @@ class HasherTest extends \PHPUnit_Framework_TestCase
      */
     public function testCanNotCreateHasherWithInvalidFunction()
     {
-        $hasher = new Hasher('invalidalgorithm');
+        $hasher = new URLHasher('invalidalgorithm');
     }
 
     /**
@@ -24,17 +23,17 @@ class HasherTest extends \PHPUnit_Framework_TestCase
      */
     public function testGenerateExpectedHash($urlstring, $algorithm, $expectedHash)
     {
-        $url = new URL($urlstring);
-        $hasher = new Hasher($algorithm);
-        $hash = $hasher->hashString($url);
+        $url    = new URL($urlstring);
+        $hasher = new URLHasher($algorithm);
+        $hash   = $hasher->hashUrl($url);
         $this->assertEquals($expectedHash, $hash);
     }
 
     public function testCanRetrieveAlgorithmName()
     {
         $algorithm = 'crc32b';
-        $hasher = new Hasher($algorithm);
-        $this->assertEquals($algorithm, (string)$hasher);
+        $hasher    = new URLHasher($algorithm);
+        $this->assertEquals($algorithm, (string) $hasher);
     }
 
     /**

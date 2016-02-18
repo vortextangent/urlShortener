@@ -2,11 +2,11 @@
 <phploc>
   <directories>2</directories>
   <files>6</files>
-  <loc>253</loc>
-  <lloc>43</lloc>
-  <llocClasses>16</llocClasses>
+  <loc>254</loc>
+  <lloc>46</lloc>
+  <llocClasses>17</llocClasses>
   <llocFunctions>22</llocFunctions>
-  <llocGlobal>5</llocGlobal>
+  <llocGlobal>7</llocGlobal>
   <cloc>83</cloc>
   <ccn>4</ccn>
   <ccnMethods>2</ccnMethods>
@@ -18,21 +18,21 @@
   <functions>1</functions>
   <namedFunctions>0</namedFunctions>
   <anonymousFunctions>1</anonymousFunctions>
-  <methods>9</methods>
-  <publicMethods>7</publicMethods>
+  <methods>10</methods>
+  <publicMethods>8</publicMethods>
   <nonPublicMethods>2</nonPublicMethods>
-  <nonStaticMethods>9</nonStaticMethods>
+  <nonStaticMethods>10</nonStaticMethods>
   <staticMethods>0</staticMethods>
   <constants>0</constants>
   <classConstants>0</classConstants>
   <globalConstants>0</globalConstants>
   <testClasses>2</testClasses>
   <testMethods>6</testMethods>
-  <ccnByLloc>0.093023255813953</ccnByLloc>
+  <ccnByLloc>0.08695652173913</ccnByLloc>
   <llocByNof>22</llocByNof>
-  <methodCalls>9</methodCalls>
+  <methodCalls>11</methodCalls>
   <staticMethodCalls>0</staticMethodCalls>
-  <instanceMethodCalls>9</instanceMethodCalls>
+  <instanceMethodCalls>11</instanceMethodCalls>
   <attributeAccesses>5</attributeAccesses>
   <staticAttributeAccesses>0</staticAttributeAccesses>
   <instanceAttributeAccesses>5</instanceAttributeAccesses>
@@ -44,14 +44,14 @@
   <classCcnAvg>1.5</classCcnAvg>
   <classCcnMax>2</classCcnMax>
   <classLlocMin>0</classLlocMin>
-  <classLlocAvg>4</classLlocAvg>
+  <classLlocAvg>4.25</classLlocAvg>
   <classLlocMax>9</classLlocMax>
   <methodCcnMin>1</methodCcnMin>
-  <methodCcnAvg>1.2222222222222</methodCcnAvg>
+  <methodCcnAvg>1.2</methodCcnAvg>
   <methodCcnMax>2</methodCcnMax>
   <methodLlocMin>1</methodLlocMin>
-  <methodLlocAvg>1.5555555555556</methodLlocAvg>
+  <methodLlocAvg>1.5</methodLlocAvg>
   <methodLlocMax>3</methodLlocMax>
   <namespaces>1</namespaces>
-  <ncloc>170</ncloc>
+  <ncloc>171</ncloc>
 </phploc>

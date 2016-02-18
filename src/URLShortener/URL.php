@@ -1,7 +1,8 @@
 <?php
 
-
 namespace URLShortener;
+
+use InvalidArgumentException;
 
 /**
  * Class URL
@@ -14,16 +15,6 @@ class URL
      */
     private $url;
 
-
-    /**
-     * @param string $url
-     */
-    private function setUrl($url)
-    {
-        $this->ensureIsValidURL($url);
-        $this->url = $url;
-    }
-
     /**
      * URL constructor.
      * @param $urlString
@@ -33,23 +24,36 @@ class URL
         $this->setUrl($urlString);
     }
 
+    public function asString()
+    {
+        return (string) $this->url;
+    }
+
     public function __toString()
     {
-        return (string)$this->url;
+        return $this->asString();
     }
 
     /**
      * @param $url
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      * @return bool
      */
     public function ensureIsValidURL($url)
     {
         if (filter_var($url, FILTER_VALIDATE_URL) === false) {
-            throw new \InvalidArgumentException('This is not a valid URL.');
+            throw new InvalidArgumentException('This is not a valid URL.');
         }
+
         return true;
     }
 
-
+    /**
+     * @param string $url
+     */
+    private function setUrl($url)
+    {
+        $this->ensureIsValidURL($url);
+        $this->url = $url;
+    }
 }
