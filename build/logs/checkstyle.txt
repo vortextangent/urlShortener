@@ -3,7 +3,7 @@ FILE: /Users/adacosta/Documents/dev/url/src/URLShortener/URL.php
 ----------------------------------------------------------------------
 FOUND 1 ERROR AFFECTING 1 LINE
 ----------------------------------------------------------------------
- 74 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 83 | ERROR | [x] Expected 1 newline at end of file; 0 found
 ----------------------------------------------------------------------
 PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------

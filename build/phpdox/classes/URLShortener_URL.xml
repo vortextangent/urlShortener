@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="URLShortener\URL" namespace="URLShortener" name="URL" abstract="false" final="false" start="11" end="74">
-  <file path="../src/URLShortener" file="URL.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URL.php" size="1345" time="2016-02-19T14:58:42-05:00" unixtime="1455911922" sha1="8abc038a955ac1e88230db8a47f80cc06ac95713" relative="URLShortener/URL.php"/>
+<class xmlns="http://xml.phpdox.net/src" full="URLShortener\URL" namespace="URLShortener" name="URL" abstract="false" final="false" start="11" end="83">
+  <file path="../src/URLShortener" file="URL.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URL.php" size="1470" time="2016-02-19T15:07:55-05:00" unixtime="1455912475" sha1="46a86d4ffb7cdb790a925bfe72e97ebdd65bf077" relative="URLShortener/URL.php"/>
   <docblock>
     <description compact="Class URL"/>
     <package value="URLShortener"/>
@@ -8,7 +8,7 @@
   <member name="url" visibility="private" static="false" line="16">
     <docblock>
       <description/>
-      <var/>
+      <var type="string"/>
     </docblock>
   </member>
   <constructor name="__construct" start="22" end="25" abstract="false" final="false" static="false" visibility="public">
@@ -18,9 +18,19 @@
     </docblock>
     <parameter name="urlString" byreference="false" type="{unknown}"/>
   </constructor>
-  <method name="asString" start="27" end="30" abstract="false" final="false" static="false" visibility="public"/>
-  <method name="__toString" start="32" end="35" abstract="false" final="false" static="false" visibility="public"/>
-  <method name="ensureIsValidURL" start="42" end="49" abstract="false" final="false" static="false" visibility="public">
+  <method name="asString" start="30" end="33" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="__toString" start="38" end="41" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  <method name="ensureIsValidURL" start="48" end="55" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <param variable="$url"/>
@@ -33,14 +43,18 @@
     </docblock>
     <parameter name="url" byreference="false" type="{unknown}"/>
   </method>
-  <method name="setUrl" start="54" end="59" abstract="false" final="false" static="false" visibility="private">
+  <method name="setUrl" start="60" end="65" abstract="false" final="false" static="false" visibility="private">
     <docblock>
       <description/>
       <param type="string" variable="$url"/>
     </docblock>
     <parameter name="url" byreference="false" type="{unknown}"/>
   </method>
-  <method name="ensureSchemeIsAllowed" start="61" end="73" abstract="false" final="false" static="false" visibility="private">
+  <method name="ensureSchemeIsAllowed" start="70" end="82" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description/>
+      <param type="string" variable="$url"/>
+    </docblock>
     <parameter name="url" byreference="false" type="{unknown}"/>
   </method>
 </class>

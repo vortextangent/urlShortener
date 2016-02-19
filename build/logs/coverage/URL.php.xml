@@ -2,7 +2,7 @@
 <phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
   <file name="URL.php">
     <totals>
-      <lines total="73" comments="19" code="54" executable="17" executed="17" percent="100.00%"/>
+      <lines total="82" comments="28" code="54" executable="17" executed="17" percent="100.00%"/>
       <methods count="6" tested="6" percent="100.00%"/>
       <functions count="0" tested="0" percent=""/>
       <classes count="1" tested="1" percent="100.00%"/>
@@ -12,11 +12,11 @@
       <package full="URLShortener" name="URLShortener" sub="" category=""/>
       <namespace name="URLShortener"/>
       <method name="__construct" signature="__construct($urlString)" start="22" end="25" crap="1" executable="2" executed="2" coverage="100"/>
-      <method name="asString" signature="asString()" start="27" end="30" crap="1" executable="1" executed="1" coverage="100"/>
-      <method name="__toString" signature="__toString()" start="32" end="35" crap="1" executable="1" executed="1" coverage="100"/>
-      <method name="ensureIsValidURL" signature="ensureIsValidURL($url)" start="42" end="49" crap="2" executable="3" executed="3" coverage="100"/>
-      <method name="setUrl" signature="setUrl($url)" start="54" end="59" crap="1" executable="4" executed="4" coverage="100"/>
-      <method name="ensureSchemeIsAllowed" signature="ensureSchemeIsAllowed($url)" start="61" end="73" crap="2" executable="6" executed="6" coverage="100"/>
+      <method name="asString" signature="asString()" start="30" end="33" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="__toString" signature="__toString()" start="38" end="41" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="ensureIsValidURL" signature="ensureIsValidURL($url)" start="48" end="55" crap="2" executable="3" executed="3" coverage="100"/>
+      <method name="setUrl" signature="setUrl($url)" start="60" end="65" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="ensureSchemeIsAllowed" signature="ensureSchemeIsAllowed($url)" start="70" end="82" crap="2" executable="6" executed="6" coverage="100"/>
     </class>
     <coverage>
       <line nr="24">
@@ -32,13 +32,13 @@
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
-      <line nr="29">
+      <line nr="32">
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
-      <line nr="34">
+      <line nr="40">
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
-      <line nr="44">
+      <line nr="50">
         <covered by="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0"/>
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
@@ -46,17 +46,17 @@
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
-      <line nr="45">
+      <line nr="51">
         <covered by="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0"/>
       </line>
-      <line nr="48">
+      <line nr="54">
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
-      <line nr="56">
+      <line nr="62">
         <covered by="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0"/>
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
@@ -64,56 +64,56 @@
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
-      <line nr="57">
+      <line nr="63">
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
         <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
-        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
-      </line>
-      <line nr="58">
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
-        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
-      </line>
-      <line nr="59">
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
       <line nr="64">
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
       </line>
-      <line nr="66">
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
+      <line nr="65">
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
-      </line>
-      <line nr="68">
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
-        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
-      </line>
-      <line nr="70">
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
-        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
-        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
-      </line>
-      <line nr="71">
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
-        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
       </line>
       <line nr="73">
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="75">
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="77">
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="79">
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
+        <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
+        <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>
+      </line>
+      <line nr="80">
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0"/>
+        <covered by="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1"/>
+      </line>
+      <line nr="82">
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0"/>
         <covered by="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1"/>
         <covered by="URLShortener\URLTest::testCanRetrieveUrlAsString"/>

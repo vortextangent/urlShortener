@@ -60,7 +60,7 @@ class URLHasher
     {
         $available = hash_algos();
         if (!in_array($algorithm, $available)) {
-            throw new InvalidArgumentException('The specified algorithm does not exist');
+            throw new InvalidArgumentException('The specified algorithm is not available.');
         }
 
         return true;

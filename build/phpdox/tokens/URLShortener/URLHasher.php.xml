@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="../src/URLShortener" file="URLHasher.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URLHasher.php" size="1269" time="2016-02-18T16:43:39-05:00" unixtime="1455831819" sha1="27dfdcc79f5605ec8ea362945c06922ec01ed54a" relative="URLShortener/URLHasher.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="../src/URLShortener" file="URLHasher.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URLHasher.php" size="1272" time="2016-02-19T15:16:06-05:00" unixtime="1455912966" sha1="dfc411f838bc46906904b121050c776c7295b3f1" relative="URLShortener/URLHasher.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -319,7 +319,7 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">InvalidArgumentException</token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_CONSTANT_ENCAPSED_STRING">'The specified algorithm does not exist'</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">'The specified algorithm is not available.'</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>

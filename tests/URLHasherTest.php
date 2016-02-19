@@ -2,18 +2,20 @@
 
 namespace URLShortener;
 
+use InvalidArgumentException;
+use PHPUnit_Framework_TestCase;
+
 /**
  * Class URLHashTest
  * @package URL
  * @covers  \URLShortener\URLHasher
  */
-class HasherTest extends \PHPUnit_Framework_TestCase
+class URLHasherTest extends PHPUnit_Framework_TestCase
 {
-    /**
-     * @expectedException \InvalidArgumentException
-     */
+
     public function testCanNotCreateHasherWithInvalidFunction()
     {
+        $this->setExpectedException(InvalidArgumentException::class, 'The specified algorithm is not available.');
         $hasher = new URLHasher('invalidalgorithm');
     }
 

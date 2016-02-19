@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class xmlns="http://xml.phpdox.net/src" full="URLShortener\URLHasher" namespace="URLShortener" name="URLHasher" abstract="false" final="false" start="11" end="68">
-  <file path="../src/URLShortener" file="URLHasher.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URLHasher.php" size="1269" time="2016-02-18T16:43:39-05:00" unixtime="1455831819" sha1="27dfdcc79f5605ec8ea362945c06922ec01ed54a" relative="URLShortener/URLHasher.php"/>
+  <file path="../src/URLShortener" file="URLHasher.php" realpath="/Users/adacosta/Documents/dev/url/src/URLShortener/URLHasher.php" size="1272" time="2016-02-19T15:16:06-05:00" unixtime="1455912966" sha1="dfc411f838bc46906904b121050c776c7295b3f1" relative="URLShortener/URLHasher.php"/>
   <docblock>
     <description compact="Class Hasher"/>
     <package value="URLShortener"/>

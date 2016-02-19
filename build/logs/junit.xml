@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="URLShortener" tests="10" assertions="13" failures="0" errors="0" time="0.028746">
-    <testsuite name="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.013282">
-      <testcase name="testCanNotCreateHasherWithInvalidFunction" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="15" assertions="1" time="0.002977"/>
-      <testsuite name="URLShortener\HasherTest::testGenerateExpectedHash" tests="2" assertions="2" failures="0" errors="0" time="0.008037">
-        <testcase name="testGenerateExpectedHash with data set #0" assertions="1" time="0.005201"/>
-        <testcase name="testGenerateExpectedHash with data set #1" assertions="1" time="0.002836"/>
+  <testsuite name="URLShortener" tests="10" assertions="14" failures="0" errors="0" time="0.030214">
+    <testsuite name="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" tests="4" assertions="5" failures="0" errors="0" time="0.010931">
+      <testcase name="testCanNotCreateHasherWithInvalidFunction" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="16" assertions="2" time="0.004046"/>
+      <testsuite name="URLShortener\HasherTest::testGenerateExpectedHash" tests="2" assertions="2" failures="0" errors="0" time="0.004904">
+        <testcase name="testGenerateExpectedHash with data set #0" assertions="1" time="0.002618"/>
+        <testcase name="testGenerateExpectedHash with data set #1" assertions="1" time="0.002286"/>
       </testsuite>
-      <testcase name="testCanRetrieveAlgorithmName" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="32" assertions="1" time="0.002268"/>
+      <testcase name="testCanRetrieveAlgorithmName" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="34" assertions="1" time="0.001981"/>
     </testsuite>
-    <testsuite name="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" tests="6" assertions="9" failures="0" errors="0" time="0.015464">
-      <testsuite name="URLShortener\URLTest::testDoesNotAllowInvalidUrls" tests="1" assertions="2" failures="0" errors="0" time="0.002542">
-        <testcase name="testDoesNotAllowInvalidUrls with data set #0" assertions="2" time="0.002542"/>
+    <testsuite name="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" tests="6" assertions="9" failures="0" errors="0" time="0.019283">
+      <testsuite name="URLShortener\URLTest::testDoesNotAllowInvalidUrls" tests="1" assertions="2" failures="0" errors="0" time="0.004825">
+        <testcase name="testDoesNotAllowInvalidUrls with data set #0" assertions="2" time="0.004825"/>
       </testsuite>
-      <testsuite name="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes" tests="2" assertions="4" failures="0" errors="0" time="0.005339">
-        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #0" assertions="2" time="0.002648"/>
-        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #1" assertions="2" time="0.002691"/>
+      <testsuite name="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes" tests="2" assertions="4" failures="0" errors="0" time="0.005418">
+        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #0" assertions="2" time="0.002807"/>
+        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #1" assertions="2" time="0.002611"/>
       </testsuite>
-      <testsuite name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl" tests="2" assertions="2" failures="0" errors="0" time="0.005222">
-        <testcase name="testCanCreateInstanceWithValidUrl with data set #0" assertions="1" time="0.002196"/>
-        <testcase name="testCanCreateInstanceWithValidUrl with data set #1" assertions="1" time="0.003026"/>
+      <testsuite name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl" tests="2" assertions="2" failures="0" errors="0" time="0.005505">
+        <testcase name="testCanCreateInstanceWithValidUrl with data set #0" assertions="1" time="0.002148"/>
+        <testcase name="testCanCreateInstanceWithValidUrl with data set #1" assertions="1" time="0.003357"/>
       </testsuite>
-      <testcase name="testCanRetrieveUrlAsString" class="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" line="44" assertions="1" time="0.002361"/>
+      <testcase name="testCanRetrieveUrlAsString" class="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" line="42" assertions="1" time="0.003535"/>
     </testsuite>
   </testsuite>
 </testsuites>

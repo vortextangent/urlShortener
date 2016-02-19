@@ -15,7 +15,7 @@
     </tests>
     <directory name="/Users/adacosta/Documents/dev/url/src/URLShortener">
       <totals>
-        <lines total="140" comments="46" code="94" executable="28" executed="28" percent="100.00%"/>
+        <lines total="149" comments="55" code="94" executable="28" executed="28" percent="100.00%"/>
         <methods count="11" tested="11" percent="100.00%"/>
         <functions count="0" tested="0" percent=""/>
         <classes count="2" tested="2" percent="100.00%"/>
@@ -23,7 +23,7 @@
       </totals>
       <file name="URL.php" href="URL.php.xml">
         <totals>
-          <lines total="73" comments="19" code="54" executable="17" executed="17" percent="100.00%"/>
+          <lines total="82" comments="28" code="54" executable="17" executed="17" percent="100.00%"/>
           <methods count="6" tested="6" percent="100.00%"/>
           <functions count="0" tested="0" percent=""/>
           <classes count="1" tested="1" percent="100.00%"/>
