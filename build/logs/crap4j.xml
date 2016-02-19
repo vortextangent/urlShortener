@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2016-02-18 16:18:09</timestamp>
+  <timestamp>2016-02-19 15:04:10</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>10</methodCount>
+    <methodCount>11</methodCount>
     <crapMethodCount>0</crapMethodCount>
     <crapLoad>0</crapLoad>
-    <totalCrap>12</totalCrap>
+    <totalCrap>14</totalCrap>
     <crapMethodPercent>0</crapMethodPercent>
   </stats>
   <methods>
     <method>
       <package>URLShortener</package>
       <className>URL</className>
-      <methodName>asString</methodName>
-      <methodSignature>asString()</methodSignature>
-      <fullMethod>asString()</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>URLShortener</package>
-      <className>URL</className>
-      <methodName>setUrl</methodName>
-      <methodSignature>setUrl($url)</methodSignature>
-      <fullMethod>setUrl($url)</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>URLShortener</package>
-      <className>URL</className>
       <methodName>__construct</methodName>
       <methodSignature>__construct($urlString)</methodSignature>
       <fullMethod>__construct($urlString)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>URLShortener</package>
+      <className>URL</className>
+      <methodName>asString</methodName>
+      <methodSignature>asString()</methodSignature>
+      <fullMethod>asString()</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -68,6 +57,39 @@
     </method>
     <method>
       <package>URLShortener</package>
+      <className>URL</className>
+      <methodName>setUrl</methodName>
+      <methodSignature>setUrl($url)</methodSignature>
+      <fullMethod>setUrl($url)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>URLShortener</package>
+      <className>URL</className>
+      <methodName>ensureSchemeIsAllowed</methodName>
+      <methodSignature>ensureSchemeIsAllowed($url)</methodSignature>
+      <fullMethod>ensureSchemeIsAllowed($url)</fullMethod>
+      <crap>2</crap>
+      <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>URLShortener</package>
+      <className>URLHasher</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct($algorithm = 'crc32b')</methodSignature>
+      <fullMethod>__construct($algorithm = 'crc32b')</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>URLShortener</package>
       <className>URLHasher</className>
       <methodName>__toString</methodName>
       <methodSignature>__toString()</methodSignature>
@@ -91,9 +113,9 @@
     <method>
       <package>URLShortener</package>
       <className>URLHasher</className>
-      <methodName>__construct</methodName>
-      <methodSignature>__construct($algorithm = 'crc32b')</methodSignature>
-      <fullMethod>__construct($algorithm = 'crc32b')</fullMethod>
+      <methodName>hashUrl</methodName>
+      <methodSignature>hashUrl(URL $url)</methodSignature>
+      <fullMethod>hashUrl(URL $url)</fullMethod>
       <crap>1</crap>
       <complexity>1</complexity>
       <coverage>100</coverage>
@@ -107,17 +129,6 @@
       <fullMethod>ensureAlgorithmIsAvailable($algorithm)</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
-      <coverage>100</coverage>
-      <crapLoad>0</crapLoad>
-    </method>
-    <method>
-      <package>URLShortener</package>
-      <className>URLHasher</className>
-      <methodName>hashUrl</methodName>
-      <methodSignature>hashUrl(URL $url)</methodSignature>
-      <fullMethod>hashUrl(URL $url)</fullMethod>
-      <crap>1</crap>
-      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>

@@ -39,9 +39,9 @@
             <a href="../../classes.html#URLShortener">URLShortener</a>
           </li>
           <li class="separator">
-            <a title="URLShortener\URLHasher" href="../../classes/URLShortener_URLHasher.html">URLHasher</a>
+            <a title="URLShortener\URL" href="../../classes/URLShortener_URL.html">URL</a>
           </li>
-          <li class="separator">__construct</li>
+          <li class="separator">ensureSchemeIsAllowed</li>
         </ul>
       </div>
       <nav class="box">
@@ -59,42 +59,42 @@
             <a href="#tests">Tests</a>
           </li>
           <li>
-            <a href="../../source/URLShortener/URLHasher.php.html#line22">Source</a>
+            <a href="../../source/URLShortener/URL.php.html#line61">Source</a>
           </li>
         </ul>
       </nav>
       <section>
-        <h1><small>URLShortener\URLHasher::</small>__construct</h1>
-        <h4>Hasher constructor.</h4>
+        <h1><small>URLShortener\URL::</small>ensureSchemeIsAllowed</h1>
+        <h4/>
         <p/>
-        <ul/>
         <h2 id="signature">Signature</h2>
         <div class="styled synopsis">
-          <code>public function __construct([string
-        $algorithm = 'crc32b'] )
+          <code>private function ensureSchemeIsAllowed(
+        $url )
             </code>
         </div>
         <h2 id="parameterlist">Parameters</h2>
         <dl class="styled">
-          <dt><code>$algorithm</code>
+          <dt><code>$url</code>
                 —
-                string</dt>
+                </dt>
           <dd/>
         </dl>
         <h2 id="tests">Test Coverage</h2>
         <div class="styled">
           <h3>Information</h3>
           <ul class="styled">
-            <li>Coverage: 2/2 Lines (100%)</li>
-            <li>Tests: 4</li>
-            <li>Passed: 4 (100%)</li>
+            <li>Coverage: 6/6 Lines (100%)</li>
+            <li>Tests: 5</li>
+            <li>Passed: 5 (100%)</li>
           </ul>
           <h3>Tests</h3>
           <ul class="styled">
-            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction</li>
-            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\HasherTest::testGenerateExpectedHash with data set #0</li>
-            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\HasherTest::testGenerateExpectedHash with data set #1</li>
-            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\HasherTest::testCanRetrieveAlgorithmName</li>
+            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0</li>
+            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1</li>
+            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0</li>
+            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1</li>
+            <li>[ <span class="testresult-PASSED">PASSED</span> ] — URLShortener\URLTest::testCanRetrieveUrlAsString</li>
           </ul>
         </div>
       </section>

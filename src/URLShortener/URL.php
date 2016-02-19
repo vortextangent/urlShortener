@@ -54,6 +54,21 @@ class URL
     private function setUrl($url)
     {
         $this->ensureIsValidURL($url);
+        $this->ensureSchemeIsAllowed($url);
         $this->url = $url;
+    }
+
+    private function ensureSchemeIsAllowed($url)
+    {
+        $allowedSchemes = [
+            'http',
+            'https'
+        ];
+
+        $urlScheme = parse_url($url, PHP_URL_SCHEME);
+
+        if (!in_array($urlScheme, $allowedSchemes)) {
+            throw new InvalidArgumentException('URL scheme is not allowed.');
+        }
     }
 }

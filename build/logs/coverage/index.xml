@@ -7,22 +7,24 @@
       <test name="URLShortener\HasherTest::testGenerateExpectedHash with data set #1" size="unknown" result="0" status="PASSED"/>
       <test name="URLShortener\HasherTest::testCanRetrieveAlgorithmName" size="unknown" result="0" status="PASSED"/>
       <test name="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1" size="unknown" result="0" status="PASSED"/>
       <test name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0" size="unknown" result="0" status="PASSED"/>
       <test name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1" size="unknown" result="0" status="PASSED"/>
       <test name="URLShortener\URLTest::testCanRetrieveUrlAsString" size="unknown" result="0" status="PASSED"/>
     </tests>
     <directory name="/Users/adacosta/Documents/dev/url/src/URLShortener">
       <totals>
-        <lines total="125" comments="46" code="79" executable="21" executed="21" percent="100.00%"/>
-        <methods count="10" tested="10" percent="100.00%"/>
+        <lines total="140" comments="46" code="94" executable="28" executed="28" percent="100.00%"/>
+        <methods count="11" tested="11" percent="100.00%"/>
         <functions count="0" tested="0" percent=""/>
         <classes count="2" tested="2" percent="100.00%"/>
         <traits count="0" tested="0" percent=""/>
       </totals>
       <file name="URL.php" href="URL.php.xml">
         <totals>
-          <lines total="58" comments="19" code="39" executable="10" executed="10" percent="100.00%"/>
-          <methods count="5" tested="5" percent="100.00%"/>
+          <lines total="73" comments="19" code="54" executable="17" executed="17" percent="100.00%"/>
+          <methods count="6" tested="6" percent="100.00%"/>
           <functions count="0" tested="0" percent=""/>
           <classes count="1" tested="1" percent="100.00%"/>
           <traits count="0" tested="0" percent=""/>

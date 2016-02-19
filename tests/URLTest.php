@@ -2,19 +2,33 @@
 
 namespace URLShortener;
 
+use InvalidArgumentException;
+use PHPUnit_Framework_TestCase;
+
 /**
  * Class URLTest
  * @package URLShortener
  * @covers  \URLShortener\URL
  */
-class URLTest extends \PHPUnit_Framework_TestCase
+class URLTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider invalidUrlProvider
-     * @expectedException \InvalidArgumentException
+     * @expectedException InvalidArgumentException
      */
-    public function testDoesNotAllowInvalidUrls($urlString)
+    public function testDoesNotAllowInvalidUrls($urlString, $expectedErrorMessage)
     {
+        $this->setExpectedException(InvalidArgumentException::class, $expectedErrorMessage);
+        $url = new URL($urlString);
+    }
+
+    /**
+     * @dataProvider restrictedUrlSchemeProvider
+     * @expectedException InvalidArgumentException
+     */
+    public function testDoesNotAllowUrlsWithRestrictedSchemes($urlString, $expectedErrorMessage)
+    {
+        $this->setExpectedException(InvalidArgumentException::class, $expectedErrorMessage);
         $url = new URL($urlString);
     }
 
@@ -40,7 +54,19 @@ class URLTest extends \PHPUnit_Framework_TestCase
     public function invalidUrlProvider()
     {
         return [
-            ["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~:/?#[]@!$&\\\'()*+,;="]
+            [
+                "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~:/?#[]@!$&\\\'()*+,;=",
+                "This is not a valid URL."
+            ]
+        ];
+    }
+
+    public function restrictedUrlSchemeProvider()
+    {
+
+        return [
+            ['mailto:test@me.com', "URL scheme is not allowed."],
+            ['ftp://user:none@none.com', "URL scheme is not allowed."]
         ];
     }
 
