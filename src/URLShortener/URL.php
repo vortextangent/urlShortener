@@ -11,7 +11,7 @@ use InvalidArgumentException;
 class URL
 {
     /**
-     * @var
+     * @var string
      */
     private $url;
 
@@ -24,11 +24,17 @@ class URL
         $this->setUrl($urlString);
     }
 
+    /**
+     * @return string
+     */
     public function asString()
     {
         return (string) $this->url;
     }
 
+    /**
+     * @return string
+     */
     public function __toString()
     {
         return $this->asString();
@@ -58,6 +64,9 @@ class URL
         $this->url = $url;
     }
 
+    /**
+     * @param string $url
+     */
     private function ensureSchemeIsAllowed($url)
     {
         $allowedSchemes = [

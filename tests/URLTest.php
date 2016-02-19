@@ -14,7 +14,6 @@ class URLTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @dataProvider invalidUrlProvider
-     * @expectedException InvalidArgumentException
      */
     public function testDoesNotAllowInvalidUrls($urlString, $expectedErrorMessage)
     {
@@ -24,7 +23,6 @@ class URLTest extends PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider restrictedUrlSchemeProvider
-     * @expectedException InvalidArgumentException
      */
     public function testDoesNotAllowUrlsWithRestrictedSchemes($urlString, $expectedErrorMessage)
     {
@@ -40,7 +38,7 @@ class URLTest extends PHPUnit_Framework_TestCase
         $url = new URL($urlstring);
         $this->assertInstanceOf(URL::class, $url);
     }
-
+    
     public function testCanRetrieveUrlAsString()
     {
         $urlstring = "http://www.tonyfixit.com/";
@@ -61,6 +59,9 @@ class URLTest extends PHPUnit_Framework_TestCase
         ];
     }
 
+    /**
+     * @return array
+     */
     public function restrictedUrlSchemeProvider()
     {
 
