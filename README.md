@@ -25,3 +25,5 @@ it, including the justification for your decision.
  
  Any HTTP or HTTPS URL can be shortened to a hash of eight alphanumeric
  characters.
+  - Revealed requirement for ONLY http(s) urls (no mail:, ftp://, etc).  Any otherwise valid URLs (rfc2396) will be rejected
+  
