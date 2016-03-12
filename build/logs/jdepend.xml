@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PDepend>
   <Packages>
-    <Package name="URLShortener">
+    <Package name="knURLy">
       <Stats>
-        <TotalClasses>2</TotalClasses>
-        <ConcreteClasses>2</ConcreteClasses>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
         <AbstractClasses>0</AbstractClasses>
         <Ca>0</Ca>
         <Ce>1</Ce>
@@ -13,8 +13,9 @@
         <D>0</D>
       </Stats>
       <ConcreteClasses>
-        <Class sourceFile="/Users/adacosta/Documents/dev/url/src/URLShortener/URL.php">URL</Class>
-        <Class sourceFile="/Users/adacosta/Documents/dev/url/src/URLShortener/URLHasher.php">URLHasher</Class>
+        <Class sourceFile="/Users/adacosta/Documents/dev/url/src/knURLy/URL.php">URL</Class>
+        <Class sourceFile="/Users/adacosta/Documents/dev/url/src/knURLy/URLHasher.php">URLHasher</Class>
+        <Class sourceFile="/Users/adacosta/Documents/dev/url/src/knURLy/URLShortener.php">URLShortener</Class>
       </ConcreteClasses>
       <AbstractClasses/>
       <DependsUpon>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2016-02-19 15:16:23</timestamp>
+  <timestamp>2016-03-11 18:05:06</timestamp>
   <stats>
     <name>Method Crap Stats</name>
-    <methodCount>11</methodCount>
+    <methodCount>15</methodCount>
     <crapMethodCount>0</crapMethodCount>
     <crapLoad>0</crapLoad>
-    <totalCrap>14</totalCrap>
+    <totalCrap>18</totalCrap>
     <crapMethodPercent>0</crapMethodPercent>
   </stats>
   <methods>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URL</className>
       <methodName>__construct</methodName>
       <methodSignature>__construct($urlString)</methodSignature>
@@ -23,7 +23,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URL</className>
       <methodName>asString</methodName>
       <methodSignature>asString()</methodSignature>
@@ -34,7 +34,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URL</className>
       <methodName>__toString</methodName>
       <methodSignature>__toString()</methodSignature>
@@ -45,7 +45,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URL</className>
       <methodName>ensureIsValidURL</methodName>
       <methodSignature>ensureIsValidURL($url)</methodSignature>
@@ -56,7 +56,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URL</className>
       <methodName>setUrl</methodName>
       <methodSignature>setUrl($url)</methodSignature>
@@ -67,7 +67,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URL</className>
       <methodName>ensureSchemeIsAllowed</methodName>
       <methodSignature>ensureSchemeIsAllowed($url)</methodSignature>
@@ -78,7 +78,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URLHasher</className>
       <methodName>__construct</methodName>
       <methodSignature>__construct($algorithm = 'crc32b')</methodSignature>
@@ -89,7 +89,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URLHasher</className>
       <methodName>__toString</methodName>
       <methodSignature>__toString()</methodSignature>
@@ -100,7 +100,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URLHasher</className>
       <methodName>setAlgorithm</methodName>
       <methodSignature>setAlgorithm($algorithm)</methodSignature>
@@ -111,7 +111,7 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URLHasher</className>
       <methodName>hashUrl</methodName>
       <methodSignature>hashUrl(URL $url)</methodSignature>
@@ -122,13 +122,57 @@
       <crapLoad>0</crapLoad>
     </method>
     <method>
-      <package>URLShortener</package>
+      <package>knURLy</package>
       <className>URLHasher</className>
       <methodName>ensureAlgorithmIsAvailable</methodName>
       <methodSignature>ensureAlgorithmIsAvailable($algorithm)</methodSignature>
       <fullMethod>ensureAlgorithmIsAvailable($algorithm)</fullMethod>
       <crap>2</crap>
       <complexity>2</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>knURLy</package>
+      <className>URLShortener</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(URL $url, URLHasher $hasher)</methodSignature>
+      <fullMethod>__construct(URL $url, URLHasher $hasher)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>knURLy</package>
+      <className>URLShortener</className>
+      <methodName>getUrlHash</methodName>
+      <methodSignature>getUrlHash()</methodSignature>
+      <fullMethod>getUrlHash()</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>knURLy</package>
+      <className>URLShortener</className>
+      <methodName>hashEqualTo</methodName>
+      <methodSignature>hashEqualTo($hash)</methodSignature>
+      <fullMethod>hashEqualTo($hash)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>knURLy</package>
+      <className>URLShortener</className>
+      <methodName>getUrlAsString</methodName>
+      <methodSignature>getUrlAsString()</methodSignature>
+      <fullMethod>getUrlAsString()</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
       <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>

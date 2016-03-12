@@ -1,29 +1,32 @@
 <?xml version="1.0"?>
 <phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
-  <project name="/Users/adacosta/Documents/dev/url/src/URLShortener">
+  <project name="/Users/adacosta/Documents/dev/url/src/knURLy">
     <tests>
-      <test name="URLShortener\HasherTest::testCanNotCreateHasherWithInvalidFunction" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\HasherTest::testGenerateExpectedHash with data set #0" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\HasherTest::testGenerateExpectedHash with data set #1" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\HasherTest::testCanRetrieveAlgorithmName" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\URLTest::testDoesNotAllowInvalidUrls with data set #0" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #0" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl with data set #1" size="unknown" result="0" status="PASSED"/>
-      <test name="URLShortener\URLTest::testCanRetrieveUrlAsString" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLHasherTest::testCanNotCreateHasherWithInvalidFunction" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLHasherTest::testGenerateExpectedHash with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLHasherTest::testGenerateExpectedHash with data set #1" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLHasherTest::testCanRetrieveAlgorithmName" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLShortenerTest::testCanTestForEquivalentHash" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLShortenerTest::testCanRetrieveURLFromShortener" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLShortenerTest::testCanRetrieveURLHashFromShortener" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLTest::testDoesNotAllowInvalidUrls with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes with data set #1" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLTest::testCanCreateInstanceWithValidUrl with data set #0" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLTest::testCanCreateInstanceWithValidUrl with data set #1" size="unknown" result="0" status="PASSED"/>
+      <test name="knURLy\URLTest::testCanRetrieveUrlAsString" size="unknown" result="0" status="PASSED"/>
     </tests>
-    <directory name="/Users/adacosta/Documents/dev/url/src/URLShortener">
+    <directory name="/Users/adacosta/Documents/dev/url/src/knURLy">
       <totals>
-        <lines total="149" comments="55" code="94" executable="28" executed="28" percent="100.00%"/>
-        <methods count="11" tested="11" percent="100.00%"/>
+        <lines total="187" comments="60" code="127" executable="35" executed="35" percent="100.00%"/>
+        <methods count="15" tested="15" percent="100.00%"/>
         <functions count="0" tested="0" percent=""/>
-        <classes count="2" tested="2" percent="100.00%"/>
+        <classes count="3" tested="3" percent="100.00%"/>
         <traits count="0" tested="0" percent=""/>
       </totals>
       <file name="URL.php" href="URL.php.xml">
         <totals>
-          <lines total="82" comments="28" code="54" executable="17" executed="17" percent="100.00%"/>
+          <lines total="78" comments="24" code="54" executable="17" executed="17" percent="100.00%"/>
           <methods count="6" tested="6" percent="100.00%"/>
           <functions count="0" tested="0" percent=""/>
           <classes count="1" tested="1" percent="100.00%"/>
@@ -32,8 +35,17 @@
       </file>
       <file name="URLHasher.php" href="URLHasher.php.xml">
         <totals>
-          <lines total="67" comments="27" code="40" executable="11" executed="11" percent="100.00%"/>
+          <lines total="63" comments="23" code="40" executable="11" executed="11" percent="100.00%"/>
           <methods count="5" tested="5" percent="100.00%"/>
+          <functions count="0" tested="0" percent=""/>
+          <classes count="1" tested="1" percent="100.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+      <file name="URLShortener.php" href="URLShortener.php.xml">
+        <totals>
+          <lines total="46" comments="13" code="33" executable="7" executed="7" percent="100.00%"/>
+          <methods count="4" tested="4" percent="100.00%"/>
           <functions count="0" tested="0" percent=""/>
           <classes count="1" tested="1" percent="100.00%"/>
           <traits count="0" tested="0" percent=""/>

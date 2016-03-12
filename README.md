@@ -16,7 +16,7 @@ it, including the justification for your decision.
 - code must have 100% unit test coverage, with PHPUnit configured as strict as possible
 - code must provide an executable specification (PHPUnit's testdox feature)
 - code must not contain any todo comments
-- code must not contain unneccessary generalizations or speculative features
+- code must not contain unnecessary generalizations or speculative features
 - keep things as simple as possible
 
 
@@ -27,3 +27,7 @@ it, including the justification for your decision.
  characters.
   - Revealed requirement for ONLY http(s) urls (no mail:, ftp://, etc).  Any otherwise valid URLs (rfc2396) will be rejected
   
+ Second Iteration
+ ================
+
+ Hashes can be mapped back to the original URL.

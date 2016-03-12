@@ -1,14 +1,12 @@
 <?php
 
-namespace URLShortener;
+namespace knURLy;
 
 use InvalidArgumentException;
 use PHPUnit_Framework_TestCase;
 
 /**
- * Class URLHashTest
- * @package URL
- * @covers  \URLShortener\URLHasher
+ * @covers  \knURLy\URLHasher
  */
 class URLHasherTest extends PHPUnit_Framework_TestCase
 {
@@ -21,7 +19,7 @@ class URLHasherTest extends PHPUnit_Framework_TestCase
 
     /**
      * @dataProvider urlProvider
-     * @uses         \URLShortener\URL
+     * @uses         \knURLy\URL
      */
     public function testGenerateExpectedHash($urlstring, $algorithm, $expectedHash)
     {

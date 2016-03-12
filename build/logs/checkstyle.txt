@@ -1,21 +1,32 @@
 
-FILE: /Users/adacosta/Documents/dev/url/src/URLShortener/URL.php
+FILE: /Users/adacosta/Documents/dev/url/src/knURLy/URL.php
 ----------------------------------------------------------------------
 FOUND 1 ERROR AFFECTING 1 LINE
 ----------------------------------------------------------------------
- 83 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 79 | ERROR | [x] Expected 1 newline at end of file; 0 found
 ----------------------------------------------------------------------
 PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
 
-FILE: /Users/adacosta/Documents/dev/url/src/URLShortener/URLHasher.php
+FILE: /Users/adacosta/Documents/dev/url/src/knURLy/URLHasher.php
 ----------------------------------------------------------------------
 FOUND 1 ERROR AFFECTING 1 LINE
 ----------------------------------------------------------------------
- 68 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 64 | ERROR | [x] Expected 1 newline at end of file; 0 found
 ----------------------------------------------------------------------
 PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /Users/adacosta/Documents/dev/url/src/knURLy/URLShortener.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 39 | ERROR | [x] Opening brace should be on a new line
+ 47 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
 

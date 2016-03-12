@@ -7,8 +7,9 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
-                'urlshortener\\url' => '/URLShortener/URL.php',
-                'urlshortener\\urlhasher' => '/URLShortener/URLHasher.php'
+                'knurly\\url' => '/knURLy/URL.php',
+                'knurly\\urlhasher' => '/knURLy/URLHasher.php',
+                'knurly\\urlshortener' => '/knURLy/URLShortener.php'
             );
         }
         $cn = strtolower($class);

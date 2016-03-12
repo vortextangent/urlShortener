@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="URLShortener.php">
+    <totals>
+      <lines total="46" comments="13" code="33" executable="7" executed="7" percent="100.00%"/>
+      <methods count="4" tested="4" percent="100.00%"/>
+      <functions count="0" tested="0" percent=""/>
+      <classes count="1" tested="1" percent="100.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="URLShortener" start="5" executable="7" executed="7" crap="4">
+      <package full="" name="" sub="" category=""/>
+      <namespace name="knURLy"/>
+      <method name="__construct" signature="__construct(URL $url, URLHasher $hasher)" start="26" end="32" crap="1" executable="4" executed="4" coverage="100"/>
+      <method name="getUrlHash" signature="getUrlHash()" start="34" end="37" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="hashEqualTo" signature="hashEqualTo($hash)" start="39" end="41" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="getUrlAsString" signature="getUrlAsString()" start="43" end="46" crap="1" executable="1" executed="1" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="28">
+        <covered by="knURLy\URLShortenerTest::testCanTestForEquivalentHash"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLFromShortener"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLHashFromShortener"/>
+      </line>
+      <line nr="29">
+        <covered by="knURLy\URLShortenerTest::testCanTestForEquivalentHash"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLFromShortener"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLHashFromShortener"/>
+      </line>
+      <line nr="31">
+        <covered by="knURLy\URLShortenerTest::testCanTestForEquivalentHash"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLFromShortener"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLHashFromShortener"/>
+      </line>
+      <line nr="32">
+        <covered by="knURLy\URLShortenerTest::testCanTestForEquivalentHash"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLFromShortener"/>
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLHashFromShortener"/>
+      </line>
+      <line nr="36">
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLHashFromShortener"/>
+      </line>
+      <line nr="40">
+        <covered by="knURLy\URLShortenerTest::testCanTestForEquivalentHash"/>
+      </line>
+      <line nr="45">
+        <covered by="knURLy\URLShortenerTest::testCanRetrieveURLFromShortener"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

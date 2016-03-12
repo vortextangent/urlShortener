@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="knURLy\URLShortener" namespace="knURLy" name="URLShortener" abstract="false" final="false" start="5" end="47">
+  <file path="../src/knURLy" file="URLShortener.php" realpath="/Users/adacosta/Documents/dev/url/src/knURLy/URLShortener.php" size="754" time="2016-03-11T18:01:57-05:00" unixtime="1457737317" sha1="aa57ecda4d2cd7bc84760c79d1fb6b2dff352139" relative="knURLy/URLShortener.php"/>
+  <member name="url" visibility="private" static="false" line="10">
+    <docblock>
+      <description/>
+      <var description="$url" type="object">
+        <type full="knURLy\URL" namespace="knURLy" name="URL"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="hasher" visibility="private" static="false" line="15">
+    <docblock>
+      <description/>
+      <var description="$hasher" type="object">
+        <type full="knURLy\URLHasher" namespace="knURLy" name="URLHasher"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="urlHash" visibility="private" static="false" line="20">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="26" end="32" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <param type="object" variable="$url">
+        <type full="knURLy\URL" namespace="knURLy" name="URL"/>
+      </param>
+      <param type="object" variable="$hasher">
+        <type full="knURLy\URLHasher" namespace="knURLy" name="URLHasher"/>
+      </param>
+    </docblock>
+    <parameter name="url" byreference="false" type="object">
+      <type full="knURLy\URL" namespace="knURLy" name="URL"/>
+    </parameter>
+    <parameter name="hasher" byreference="false" type="object">
+      <type full="knURLy\URLHasher" namespace="knURLy" name="URLHasher"/>
+    </parameter>
+  </constructor>
+  <method name="getUrlHash" start="34" end="37" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="hashEqualTo" start="39" end="41" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="hash" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="getUrlAsString" start="43" end="46" abstract="false" final="false" static="false" visibility="public"/>
+</class>

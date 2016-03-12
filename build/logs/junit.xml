@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="URLShortener" tests="10" assertions="14" failures="0" errors="0" time="0.030214">
-    <testsuite name="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" tests="4" assertions="5" failures="0" errors="0" time="0.010931">
-      <testcase name="testCanNotCreateHasherWithInvalidFunction" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="16" assertions="2" time="0.004046"/>
-      <testsuite name="URLShortener\HasherTest::testGenerateExpectedHash" tests="2" assertions="2" failures="0" errors="0" time="0.004904">
-        <testcase name="testGenerateExpectedHash with data set #0" assertions="1" time="0.002618"/>
-        <testcase name="testGenerateExpectedHash with data set #1" assertions="1" time="0.002286"/>
+  <testsuite name="URLShortener" tests="13" assertions="17" failures="0" errors="0" time="0.040763">
+    <testsuite name="knURLy\URLHasherTest" file="/Users/adacosta/Documents/dev/url/tests/URLHasherTest.php" tests="4" assertions="5" failures="0" errors="0" time="0.010690">
+      <testcase name="testCanNotCreateHasherWithInvalidFunction" class="knURLy\URLHasherTest" file="/Users/adacosta/Documents/dev/url/tests/URLHasherTest.php" line="14" assertions="2" time="0.003374"/>
+      <testsuite name="knURLy\URLHasherTest::testGenerateExpectedHash" tests="2" assertions="2" failures="0" errors="0" time="0.005187">
+        <testcase name="testGenerateExpectedHash with data set #0" assertions="1" time="0.002730"/>
+        <testcase name="testGenerateExpectedHash with data set #1" assertions="1" time="0.002457"/>
       </testsuite>
-      <testcase name="testCanRetrieveAlgorithmName" class="URLShortener\HasherTest" file="/Users/adacosta/Documents/dev/url/tests/HasherTest.php" line="34" assertions="1" time="0.001981"/>
+      <testcase name="testCanRetrieveAlgorithmName" class="knURLy\URLHasherTest" file="/Users/adacosta/Documents/dev/url/tests/URLHasherTest.php" line="32" assertions="1" time="0.002129"/>
     </testsuite>
-    <testsuite name="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" tests="6" assertions="9" failures="0" errors="0" time="0.019283">
-      <testsuite name="URLShortener\URLTest::testDoesNotAllowInvalidUrls" tests="1" assertions="2" failures="0" errors="0" time="0.004825">
-        <testcase name="testDoesNotAllowInvalidUrls with data set #0" assertions="2" time="0.004825"/>
+    <testsuite name="knURLy\URLShortenerTest" file="/Users/adacosta/Documents/dev/url/tests/URLShortenerTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.014375">
+      <testcase name="testCanTestForEquivalentHash" class="knURLy\URLShortenerTest" file="/Users/adacosta/Documents/dev/url/tests/URLShortenerTest.php" line="48" assertions="1" time="0.003850"/>
+      <testcase name="testCanRetrieveURLFromShortener" class="knURLy\URLShortenerTest" file="/Users/adacosta/Documents/dev/url/tests/URLShortenerTest.php" line="53" assertions="1" time="0.007430"/>
+      <testcase name="testCanRetrieveURLHashFromShortener" class="knURLy\URLShortenerTest" file="/Users/adacosta/Documents/dev/url/tests/URLShortenerTest.php" line="58" assertions="1" time="0.003095"/>
+    </testsuite>
+    <testsuite name="knURLy\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" tests="6" assertions="9" failures="0" errors="0" time="0.015698">
+      <testsuite name="knURLy\URLTest::testDoesNotAllowInvalidUrls" tests="1" assertions="2" failures="0" errors="0" time="0.002478">
+        <testcase name="testDoesNotAllowInvalidUrls with data set #0" assertions="2" time="0.002478"/>
       </testsuite>
-      <testsuite name="URLShortener\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes" tests="2" assertions="4" failures="0" errors="0" time="0.005418">
-        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #0" assertions="2" time="0.002807"/>
-        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #1" assertions="2" time="0.002611"/>
+      <testsuite name="knURLy\URLTest::testDoesNotAllowUrlsWithRestrictedSchemes" tests="2" assertions="4" failures="0" errors="0" time="0.004950">
+        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #0" assertions="2" time="0.002502"/>
+        <testcase name="testDoesNotAllowUrlsWithRestrictedSchemes with data set #1" assertions="2" time="0.002448"/>
       </testsuite>
-      <testsuite name="URLShortener\URLTest::testCanCreateInstanceWithValidUrl" tests="2" assertions="2" failures="0" errors="0" time="0.005505">
-        <testcase name="testCanCreateInstanceWithValidUrl with data set #0" assertions="1" time="0.002148"/>
-        <testcase name="testCanCreateInstanceWithValidUrl with data set #1" assertions="1" time="0.003357"/>
+      <testsuite name="knURLy\URLTest::testCanCreateInstanceWithValidUrl" tests="2" assertions="2" failures="0" errors="0" time="0.004865">
+        <testcase name="testCanCreateInstanceWithValidUrl with data set #0" assertions="1" time="0.002154"/>
+        <testcase name="testCanCreateInstanceWithValidUrl with data set #1" assertions="1" time="0.002711"/>
       </testsuite>
-      <testcase name="testCanRetrieveUrlAsString" class="URLShortener\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" line="42" assertions="1" time="0.003535"/>
+      <testcase name="testCanRetrieveUrlAsString" class="knURLy\URLTest" file="/Users/adacosta/Documents/dev/url/tests/URLTest.php" line="42" assertions="1" time="0.003405"/>
     </testsuite>
   </testsuite>
 </testsuites>

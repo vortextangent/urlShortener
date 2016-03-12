@@ -1,6 +1,6 @@
 <?php
 
-namespace URLShortener;
+namespace knURLy;
 
 use InvalidArgumentException;
 use PHPUnit_Framework_TestCase;
@@ -8,7 +8,7 @@ use PHPUnit_Framework_TestCase;
 /**
  * Class URLTest
  * @package URLShortener
- * @covers  \URLShortener\URL
+ * @covers  \knURLy\URL
  */
 class URLTest extends PHPUnit_Framework_TestCase
 {
